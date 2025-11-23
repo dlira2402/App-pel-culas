@@ -1,0 +1,1 @@
+export 'package:dlira_peliculas/models/movie.dart';
