@@ -1,16 +1,64 @@
-# dlira_peliculas
+# DLira Peliculas
 
-A new Flutter project.
+App de peliculas hecha con Flutter. Usa la API de TMDB para mostrar peliculas en tendencia.
 
-## Getting Started
+## Caracteristicas
 
-This project is a starting point for a Flutter application.
+- Ver peliculas en tendencia de la semana
+- Ver detalles de cada pelicula (sinopsis, rating, reparto)
+- Diseño oscuro con colores morados
+- Funciona en vertical y horizontal
 
-A few resources to get you started if this is your first Flutter project:
+## Capturas de Pantalla
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+<!-- TODO: Agregar capturas de pantalla de la app -->
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Como instalar
+
+### Requisitos
+- Flutter SDK
+- Android Studio o VS Code
+
+### Pasos
+
+1. Clonar el repo:
+```bash
+git clone https://github.com/tu-usuario/App-pel-culas.git
+```
+
+2. Instalar dependencias:
+```bash
+cd App-pel-culas
+flutter pub get
+```
+
+3. Correr la app:
+```bash
+flutter run
+```
+
+## Descargar APK
+
+<!-- TODO: Agregar enlace de descarga del APK en Google Drive -->
+[Descargar APK](https://drive.google.com/tu-enlace-aqui)
+
+## Tecnologias
+
+- Flutter
+- Provider (para el estado)
+- HTTP (para consumir la API)
+- TMDB API
+
+## Desarrolladores
+
+- Daniel Lira
+<!-- TODO: Agregar nombres de los demas desarrolladores -->
+
+## Materia
+
+<!-- TODO: Agregar nombre de la materia -->
+Proyecto Final - 2024
+
+## Licencia
+
+Proyecto de uso educativo.

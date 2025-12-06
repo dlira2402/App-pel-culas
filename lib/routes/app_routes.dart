@@ -8,5 +8,6 @@ class AppRoutes {
   static Map<String, Widget Function(BuildContext)> routes = {
     '/home': (_) => const HomeScreen(),
     '/details': (_) => const DetailsScreen(),
+    '/info': (_) => const InfoScreen(),
   };
 }

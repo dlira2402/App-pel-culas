@@ -5,6 +5,7 @@ import 'package:http/http.dart' as http;
 import 'package:dlira_peliculas/models/movie.dart';
 import 'package:dlira_peliculas/models/top_movies.dart';
 import 'package:dlira_peliculas/models/trending_movies.dart';
+import 'package:dlira_peliculas/models/cast.dart';
 
 class MoviesProvider extends ChangeNotifier {
   final String _apiKey = '3ad6e9d1c10e2bb05118f28bfcf85829';
@@ -48,6 +49,14 @@ class MoviesProvider extends ChangeNotifier {
     trendingMovies = resp.movies;
 
     notifyListeners();
+  }
+
+  // Obtener el casting de una película específica
+  Future<List<Cast>> getMovieCredits(int movieId) async {
+    final jsonData = await _getJsonData('/3/movie/$movieId/credits');
+    final resp = CreditsResponse.fromJson(jsonData);
+    // Limitar a los primeros 10 actores para no sobrecargar la UI
+    return resp.cast.take(10).toList();
   }
 }
 
