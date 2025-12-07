@@ -51,7 +51,7 @@ El logo de OurMovie representa la silueta de un **zorro**, un animal asociado co
 - TMDB API
 
 ## Instalación
-1. Clonar: `git clone https://github.com/tu-usuario/OurMovie.git`
+1. Clonar: `git clone https://github.com/dlira2402/OurMovie.git`
 2. Instalar: `flutter pub get`
 3. Correr: `flutter run`
 
@@ -65,7 +65,3 @@ El logo de OurMovie representa la silueta de un **zorro**, un animal asociado co
 Programación III
 
 Proyecto Final - 2024
-
-## Licencia
-
-Proyecto de uso educativo.
